@@ -1,5 +1,12 @@
 import pytest
+<<<<<<< HEAD
 from python import Vehicle, Motorbike, Car, Lorry, Bridge  # Replace 'your_module' with the name of your Python file
+=======
+from Vehicles.vehicle import Vehicle
+from Vehicles.vehicle_children import Car, Lorry, Motorbike
+from bridge import Bridge
+
+>>>>>>> 12d343ca61902906026fbcab4d3426613751a48d
 
 def test_motorbike_fee():
     bike = Motorbike("M1", 200)
