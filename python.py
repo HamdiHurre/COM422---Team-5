@@ -13,6 +13,11 @@ class Vehicle(ABC):
 
 # Child Classes
 class Motorbike(Vehicle):
+
+    def __init__(self, registration_number, weight):
+        super().__init__(registration_number, weight)
+
+
     def calculate_fee(self):
         return 3.00  # Fixed fee for motorbikes
 
