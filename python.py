@@ -1,5 +1,9 @@
 from abc import ABC, abstractmethod
 
+from Vehicles.vehicle import Vehicle
+from Vehicles.vehicle_children import Car, Lorry, Motorbike
+from bridge import Bridge
+
 # Abstract Class
 class Vehicle(ABC):
     def __init__(self, registration_number, weight):
